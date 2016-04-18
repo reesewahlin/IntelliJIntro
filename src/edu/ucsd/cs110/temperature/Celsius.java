@@ -19,8 +19,7 @@ public class Celsius extends Temperature {
 
         @Override
         public Temperature toCelsius() {
-            return new Temperature(value) {
-            };
+            return new Celsius(value);
         }
 
         @Override
