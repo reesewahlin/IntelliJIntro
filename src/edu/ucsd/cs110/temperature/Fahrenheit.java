@@ -16,7 +16,8 @@ public class Fahrenheit extends Temperature {
 
     @Override
     public Temperature toFahrenheit() {
-        return null;
+        return new Temperature(value) {
+        };
     }
 
 
