@@ -2,7 +2,9 @@ package edu.ucsd.cs110.temperature;
 
 import org.testng.annotations.Test;
 
-import org.junit.Assert.*;
+import static junit.framework.TestCase.assertTrue;
+import static org.testng.AssertJUnit.assertEquals;
+
 public class CelsiusTest {
     private float delta = 0.001f;
     @Test
